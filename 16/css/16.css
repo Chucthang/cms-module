@@ -1,0 +1,88 @@
+.type-16 .tieude h1 {
+  color: #1f1f1f;
+  font-size: 20px;
+  line-height: 54.4px;
+  letter-spacing: 4px;
+  padding: 31px 0 34px 150px;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+  background: #f6f6f6;
+}
+.type-16 .tieude h1:after {
+  width: 70px;
+  height: 2px;
+  background: #d65679;
+  content: '';
+  position: absolute;
+  left: 50px;
+  top: 59px;
+}
+.type-16 .tzPortfolio-wrap {
+  border-top: 1px solid #fff;
+  position: relative;
+  width: 100%;
+  padding-bottom: 197px;
+  background: #fff;
+}
+.type-16 .tzPortfolio-wrap .para1 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.type-16 .tzPortfolio-wrap .para2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.type-16 .tzPortfolio-wrap .para3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.type-16 .tzPortfolio-wrap .note1 .tzicon {
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #fff;
+}
+.type-16 .tzPortfolio-wrap .note1 h3 {
+  font-size: 17px;
+  padding: 7px 0 0 0;
+  line-height: 23px;
+}
+.type-16 .tzPortfolio-wrap .note1 h3 a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.type-16 .tzPortfolio-wrap .note1 .tzmeta span {
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.type-16 .tzPortfolio-wrap .note1 .tzmeta span a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 3px;
+}
+.type-16 .tzPortfolio-wrap * {
+  box-sizing: border-box;
+}
+.type-16 .tzPortfolio-wrap .container1 {
+  position: relative;
+  max-width: 560px;
+}
+.type-16 .tzPortfolio-wrap .overlay {
+  position: absolute;
+  bottom: 0;
+  background: #d65679;
+  width: 103%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 76px;
+  text-align: center;
+}
+.type-16 .tzPortfolio-wrap .container1:hover .overlay {
+  opacity: 1;
+}

@@ -1,0 +1,144 @@
+.type-19 .tieude h1 {
+  color: #1f1f1f;
+  font-size: 20px;
+  line-height: 54.4px;
+  letter-spacing: 4px;
+  padding: 31px 0 34px 150px;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+  background: #f6f6f6;
+}
+.type-19 .tieude h1:after {
+  width: 70px;
+  height: 2px;
+  background: #d65679;
+  content: '';
+  position: absolute;
+  left: 50px;
+  top: 59px;
+}
+.type-19 .title {
+  border-top: 1px solid #fff;
+  position: relative;
+  width: 100%;
+  padding-bottom: 197px;
+  background: #fff;
+}
+.type-19 .col-md-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 50px;
+}
+.type-19 .col-md-4 {
+  background: #fff;
+  padding-top: 50px;
+}
+.type-19 .col-md-3 {
+  background: #fff;
+  padding-top: 20px;
+}
+.type-19 .note1 .tzicon {
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #fff;
+  z-index: 2;
+  position: absolute;
+}
+.type-19 .note1 h3 {
+  font-size: 17px;
+  padding: 7px 0 0 0;
+  line-height: 23px;
+}
+.type-19 .note1 h3 a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.type-19 .note1 .tzmeta span {
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.type-19 .note1 .tzmeta span a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 3px;
+}
+.type-19 * {
+  box-sizing: border-box;
+}
+.type-19 .container1 {
+  position: relative;
+  max-width: 560px;
+}
+.type-19 .overlay {
+  position: absolute;
+  bottom: 0;
+  background: #d65679;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 77px;
+  text-align: center;
+}
+.type-19 .container1:hover {
+  opacity: 1;
+}
+.type-19 .overlay:hover {
+  opacity: 1;
+}
+.type-19 .tzsidebar-event {
+  margin-top: 30px;
+  letter-spacing: 2px;
+  margin-right: -5px;
+  margin-left: 23px;
+}
+.type-19 .tzsidebar-event aside {
+  margin-bottom: 27px;
+  border: 1px solid #EEEEEE;
+}
+.type-19 .tzsidebar-event aside .module-title {
+  font-size: 14px;
+  line-height: 16.8px;
+  margin: 0;
+  padding: 25px 5px 25px 33px;
+  position: relative;
+  text-align: left;
+  letter-spacing: 2px;
+  color: #444444;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+}
+.type-19 .tzsidebar-event aside ul,
+.type-19 .tzsidebar-event aside ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  visibility: visible;
+}
+.type-19 .tzsidebar-event aside ul li,
+.type-19 .tzsidebar-event aside ol li {
+  border-top: 1px solid #eee;
+}
+.type-19 .tzsidebar-event aside ul li a,
+.type-19 .tzsidebar-event aside ol li a {
+  color: #444444;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16.8px;
+  margin: 0;
+  padding: 25px 5px 25px 33px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+}
+.type-19 .note1 i {
+  margin-top: -26px;
+  left: 136px;
+}

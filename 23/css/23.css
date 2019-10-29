@@ -1,0 +1,183 @@
+.type-23 {
+  background: #fff;
+}
+.type-23 body {
+  background: #fff;
+}
+.type-23 .tieude h1 {
+  color: #1f1f1f;
+  font-size: 20px;
+  line-height: 54.4px;
+  padding: 31px 0 34px 150px;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+  background: #f6f6f6;
+  letter-spacing: 5px;
+}
+.type-23 .tieude :after {
+  width: 70px;
+  height: 2px;
+  background: #d65679;
+  content: '';
+  position: absolute;
+  left: 65px;
+  top: 59px;
+}
+.type-23 .img {
+  position: relative;
+  padding: 96px 0 63px;
+}
+.type-23 .tieudenho {
+  font-size: 17px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #1f1f1f;
+  display: block;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 24px 0 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.type-23 .daymonth {
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #1f1f1f;
+  display: block;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 24px 0 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.type-23 .daymonth span a {
+  color: #d65679;
+  letter-spacing: 2px;
+}
+.type-23 .para-content {
+  color: #777777;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 12px 0;
+  letter-spacing: 0.4px;
+}
+.type-23 .block {
+  color: #777777;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 12px 0;
+  letter-spacing: 0.4px;
+  border: 2px solid #f8f8f8;
+  font-size: 12px;
+  margin: 24px 0;
+  padding: 21px 30px 16px;
+  position: relative;
+}
+.type-23 .block:before {
+  position: absolute;
+  top: 16px;
+  left: 23px;
+  font-size: 24px;
+  color: #d65679;
+  font-family: 'FontAwesome';
+  content: "\f10e";
+}
+.type-23 .block p {
+  text-indent: 30px;
+  color: #999999;
+  line-height: 26px;
+}
+.type-23 .tag {
+  position: relative;
+  padding: 41px 0;
+}
+.type-23 .tag .meta-tags {
+  color: #212121;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.4px;
+}
+.type-23 .tag .meta-tags a {
+  color: #d65679;
+}
+.type-23 .tag .share {
+  color: #212121;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.4px;
+  text-align: right;
+}
+.type-23 .tag .share span {
+  padding-right: 15px;
+}
+.type-23 .tag .share a {
+  color: #d65679;
+}
+.type-23 .marydone {
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 3.5px;
+  background: #f6f6f6;
+}
+.type-23 .marydone a {
+  color: #d65679;
+}
+.type-23 .leave {
+  padding-top: 100px;
+}
+.type-23 .leave .leave-reply {
+  font-size: 17px;
+  letter-spacing: 3.5px;
+  padding-left: 15px;
+}
+.type-23 .leave p {
+  color: #777777;
+  display: block;
+  font-family: 'Varela', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 12px 0;
+}
+.type-23 .leave p a {
+  color: #d65679;
+}
+.type-23 .tzpost-pagenavi {
+  margin: 30px 0 0;
+  position: relative;
+}
+.type-23 .tzpost-pagenavi a {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  width: 40px;
+  color: #d65679;
+}
+.type-23 .tzpost-pagenavi a i {
+  color: #969595;
+  font-size: 25px;
+  padding: 8px 0;
+}
+.type-23 .tzpost-pagenavi a[rel="prev"] {
+  float: left;
+}
+.type-23 .tzpost-pagenavi a[rel="next"] {
+  float: right;
+}

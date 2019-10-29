@@ -1,0 +1,91 @@
+.type-14 .tieude {
+  background: #dcdbda;
+}
+.type-14 .tieude:after {
+  width: 70px;
+  height: 2px;
+  background: #d65679;
+  content: '';
+  position: absolute;
+  left: 70px;
+  top: 59px;
+}
+.type-14 .tieude h1 {
+  padding: 20px;
+  left: 100px;
+  padding-left: 98px;
+  font-size: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 3.5px;
+}
+.type-14 .img {
+  border-top: 1px solid #fff;
+  position: relative;
+  width: 100%;
+  padding-bottom: 197px;
+  background: #fff;
+}
+.type-14 .note1 {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 75%;
+  text-align: center;
+  z-index: 2;
+}
+.type-14 .note1 .tzicon {
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #fff;
+}
+.type-14 .note1 h3 {
+  font-size: 30px;
+  padding: 7px 0 0 0;
+  line-height: 23px;
+}
+.type-14 .note1 h3 a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.type-14 .note1 .tzmeta span {
+  font-size: 12px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.type-14 .note1 .tzmeta span a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 3px;
+}
+.type-14 * {
+  box-sizing: border-box;
+}
+.type-14 .container1 {
+  position: relative;
+  width: 560%;
+  max-width: 560px;
+}
+.type-14 .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.type-14 .overlay {
+  position: absolute;
+  bottom: 0;
+  background: #d65679;
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 190px;
+  text-align: center;
+}
+.type-14 .container1:hover .overlay {
+  opacity: 1;
+}
