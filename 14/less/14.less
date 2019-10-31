@@ -1,6 +1,10 @@
 .type-14{
+    .container{
+        width: 100%;
+    }
     .tieude {
         background: #dcdbda;
+        padding: 7px;
         &:after {
             width: 70px;
             height: 2px;
@@ -11,24 +15,24 @@
             top: 59px;
         }
         h1 {
-            padding: 20px;
-            left: 100px;
-            padding-left: 98px;
-            font-size: 20px;
-            padding-bottom: 20px;
+            padding: 20px;          
+            padding-left:150px;
+            font-size: 20px; 
             letter-spacing: 3.5px;
         }
     }
-    .img{
+    img{
         border-top: 1px solid #fff;
         position: relative;
+        top: 0px;
+        
         width: 100%;
-        padding-bottom: 197px;
-        background: #fff;
+/*        padding-bottom: 197px;*/
+/*        background: #fff;*/
     }
     .note1 {
         position: absolute;
-        left: 0;
+        left: 55px;
         top: 30%;
         width: 75%;
         text-align: center;
@@ -62,13 +66,13 @@
             }
         }
     }
-    
+
     * {box-sizing: border-box;}
 
     .container1 {
         position: relative;
-        width: 560%;
-        max-width: 560px;
+        width: 100%;
+        
     }
 
     .image {
@@ -87,11 +91,17 @@
         opacity:0;
         color: white;
         font-size: 20px;
-        padding: 190px;
+        height: 100%;
         text-align: center;
     }
-
     .container1:hover .overlay {
         opacity: 1;
     }
+  
+.container {
+    padding: 0;
+}
+.col-md-4 {
+    padding: 0;
+}
 }

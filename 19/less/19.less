@@ -81,16 +81,17 @@
         max-width: 560px;
     }
     .overlay {
-        position: absolute; 
-        bottom: 0; 
+        position: absolute;
+        bottom: 0;
         background: #d65679;
         width: 100%;
         transition: .5s ease;
-        opacity:0;
+        opacity: 0;
         color: white;
         font-size: 20px;
         padding: 77px;
         text-align: center;
+        height: 85%;
     }
     .container1:hover  {
         opacity: 1;
@@ -107,7 +108,7 @@
         margin-left: 23px;
 
         aside {
-            margin-bottom: 27px;
+            
             border: 1px solid #EEEEEE;
             .module-title {
                 font-size: 14px;
@@ -148,6 +149,12 @@
         margin-top: -26px;
         left: 136px;
     }
+}
+
+@media only screen and (max-width: 992px) {
+    .overlay {
+      max-width: 370px;
+  }
 }
 
 

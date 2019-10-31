@@ -28,6 +28,9 @@
   position: relative;
   padding: 96px 0 63px;
 }
+.type-23 .img >img {
+  width: 100%;
+}
 .type-23 .tieudenho {
   font-size: 17px;
   padding-top: 15px;
