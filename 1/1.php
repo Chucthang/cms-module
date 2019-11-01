@@ -20,7 +20,7 @@ $less->compileFile('less/1.less', 'css/1.css');
 <html lang="en">
 
 <head>
-    <title>HEADER</title>
+    <title>1</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
