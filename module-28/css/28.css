@@ -1,0 +1,45 @@
+.type-20 .events {
+  background-color: #f6f6f6;
+}
+.type-20 .events .gach {
+  margin-top: 57px;
+  height: 2px;
+  display: flex;
+  background-color: #d65679;
+  width: 6.5%;
+  float: left;
+}
+.type-20 .events .text {
+  color: #1f1f1f;
+  font-size: 17px;
+  line-height: 54.4px;
+  letter-spacing: 4px;
+  padding: 31px 0 34px 90px;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+}
+@media only screen and (max-width: 991px) {
+  .type-20 .events .gach {
+    margin-top: 31px;
+    height: 2px;
+    width: 9%;
+    margin-left: 13px;
+  }
+  .type-20 .events .text {
+    padding: 5px 0 5px 90px;
+  }
+}
+.type-20 h1 {
+  font-size: 30px;
+  line-height: 60px;
+}
+.type-20 .grid p {
+  color: #777777;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 12px 0;
+  letter-spacing: 0.4px;
+}

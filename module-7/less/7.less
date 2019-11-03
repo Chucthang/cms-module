@@ -1,0 +1,284 @@
+.type-7 {
+    .jp-playlist .lists a {
+        text-decoration: none;
+        color: #202020;
+        letter-spacing: 1.5px;
+        font-size: 11px;
+        line-height: 14.4px;
+    }
+
+    .jp-playlist ul li.jp-playlist-current:after {
+        position: absolute;
+        right: 20px;
+        top: 0;
+        content: "\f028";
+        font-family: 'FontAwesome';
+        color: #444444;
+        font-size: 14px;
+        line-height: 55px;
+    }
+    .jp-playlist ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        border: 2px solid #f2f2f2;
+    }
+    .jp-playlist ul li:first-child {
+        border-top: 0;
+    }
+    .jp-playlist ul li {
+        position: relative;
+        border-top: 2px solid #f2f2f2;
+        padding: 12px 40px 12px 78px;
+    }
+    .jp-playlist ul li:before {
+        width: 55px;
+        border-right: 2px solid #f2f2f2;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "\f08a";
+        font-family: 'FontAwesome';
+        color: #cccccc;
+        font-size: 17px;
+        line-height: 55px;
+        text-align: center;
+        transition: all 0.3s linear 0s;
+    }
+    .jp-playlist ul li.jp-playlist-current:before, .jp-playlist ul li:hover:before {
+        border-right: 2px solid #d65679;
+        color: #d65679;
+    }
+    .nut button {
+        padding: 0 5px;
+        background: none;
+        border: 0;
+    }
+    .nut {
+        display: inline-block;
+    }
+
+    .jp-progress {
+        width: 69%;
+        display: inline-block;
+        margin-bottom: 4px;
+        margin-left: 47px;
+    }
+
+    .jp-progress .jp-seek-bar {
+        background: none repeat scroll 0 0 #606060;
+    }
+
+    .jp-play-bar {
+        height: 2px;
+    }
+
+    .left .audio {
+        border-color: #f2f2f2;
+        border-style: solid;
+        border-width: 2px 2px 2px;
+        position: relative;
+        padding: 15px 20px 11px 11px;
+    }
+
+
+
+    @media only screen and (max-width: 991px) {
+        .nut {
+            display: inline-block;
+        }
+    
+        .jp-progress {
+            width: 60%;
+            display: inline-block;
+            margin-bottom: 4px;
+        }
+    }
+
+    @media only screen and (max-width: 1199px) {
+        .nut {
+            display: inline-block;
+        }
+    
+        .jp-progress {
+            width: 62%;
+        }
+
+        .ex {
+            width: 100%;
+        }
+
+        .ax {
+            width: 100%;
+        }
+    }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .box {
+    background: #d65679;
+  }
+
+  .hop {
+      float: right;
+  }
+
+  .logo {
+      float: left;
+      margin-left: 33px;
+  }
+
+  .button .check {
+    border: 1px solid #fff;
+    font-size: 12px;
+    line-height: 34.4px;
+    margin-top: 10px;
+    background: rgba(0, 0, 0, 0);
+    padding: 4px 35px;
+    text-transform: uppercase;
+    transition: all 0.3s linear 0s;
+  }
+
+  .button .check:hover {
+    background: #fff;
+    color: #666;
+  }
+
+  .button {
+    left: 69%;
+    position: relative;
+  }
+
+  .max span {
+    letter-spacing: 3px;
+    color: #fff;
+    margin-left: 27px;
+  }
+
+  .rox {
+    padding: 17px 0px 9px 0px;
+  }
+
+  @media only screen and (max-width: 1199px) {
+      .max span {
+          margin: 0;
+      }
+
+      .box .rox .logo img {
+          width: 87%;
+      }
+
+      input[type=text], select, textarea {
+        padding: 9px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin: 10px 0px 10px 0px;
+      }
+
+      .button {
+        left: 78.5%;
+        position: relative;
+      }
+
+      .max span {
+        width: 10;
+        margin: 0px 97px 0px 140px;
+      }
+
+      .rox {
+        padding: 18px 0px 30px 0px;
+      }
+
+      .box .rox .logo img {
+        width: 100%;
+    }
+
+    .button {
+        left: 78.5%;
+        position: relative;
+    }
+
+    .rox {
+        padding: 23px 0px 25px 0px;
+        margin-top: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .max span {
+        width: 10;
+        margin: 0px 50px 0px 65px;
+    }
+
+    .box .rox .logo img {
+        width: 87%;
+    }
+
+    input[type=text], select, textarea {
+      padding: 9px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+      margin: 10px 0px 10px 0px;
+    }
+
+    .button {
+        left: 74.3%;
+        position: relative;
+    }
+
+    .rox {
+      padding: 18px 0px 30px 0px;
+    }
+
+    .box .rox .logo img {
+      width: 100%;
+  }
+
+  .rox {
+      padding: 23px 0px 25px 0px;
+  }
+  }
+
+  @media only screen and (max-width: 662px) {
+    .max span {
+        margin: 0px 0px 0px 62px;
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .box .rox .logo img {
+        width: 85%;
+    }
+    .max span {
+        margin: 0;
+    }
+
+    .button {
+        left: 65.5%;
+        position: relative;
+    }
+  }
+}
