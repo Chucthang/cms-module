@@ -26,6 +26,10 @@ body {
   font-size: 13px;
   cursor: pointer;
 }
+.type-1 .fa:hover,
+.type-1 .fa-search:hover {
+  cursor: pointer;
+}
 .type-1 ul {
   margin: 0;
   padding: 0;

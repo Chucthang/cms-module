@@ -25,12 +25,12 @@ $less->compileFile('less/22.less', 'css/22.css');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2</title>
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="<?php echo $url_path ?>/jqueryui/jquery-ui.css">
     <link href="https://fonts.googleapis.com/css?family=Rouge+Script&display=swap" rel="stylesheet">
     <link href="<?php echo $url_path ?>/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/22.css" rel="stylesheet" type="text/css" />
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="<?php echo $url_path ?>/jqueryui/jquery-ui.js"></script>
 
 
     <link rel="stylesheet" href="<?php echo $url_path ?>/swiper-5.0.2/package/css/swiper.min.css">
