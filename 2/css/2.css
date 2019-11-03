@@ -1,0 +1,317 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+.type-2 .slide-button:hover {
+  text-decoration: none;
+  opacity: 0.9;
+  color: #fff;
+}
+.type-2 .slide-button {
+  background-color: orange;
+  border-radius: 3px;
+  line-height: 1em;
+  padding: 8px 16px;
+  text-align: center;
+  text-shadow: none;
+  cursor: pointer;
+  font: 400 20px "Oswald", sans-serif;
+  color: #FCFCFC;
+  float: right;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.type-2 .swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.type-2 .swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 20;
+  animation: animatedBackground 20s linear infinite alternate;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .changeContain {
+  width: 1000px !important;
+  position: relative;
+  height: 100vh;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .text1 {
+  width: 40%;
+  height: 30%;
+  display: block;
+  position: fixed;
+  left: 10%;
+  top: 30%;
+  transform: translateY(-30%);
+  transform: rotate(-30deg);
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .text1 .block1,
+.type-2 .swiper-container .swiper-slide .slide_2 .text1 .block2 {
+  color: white;
+  font-size: 8vw;
+  font-family: 'Brush Script MT', cursive;
+  display: none;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .text1 .block3 {
+  color: #bd1631;
+  font-size: 8vw;
+  display: none;
+  font-family: 'Brush Script MT', cursive;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .text1 .block2,
+.type-2 .swiper-container .swiper-slide .slide_2 .text1 .block3 {
+  float: left;
+  padding: 0px 5px;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form_animate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one {
+  width: 40%;
+  height: 40%;
+  display: none;
+  background: white;
+  margin: 0 auto;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .name_bride {
+  padding: 0px 40px;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .name_bride #text_animate {
+  display: none;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .name_bride .hname {
+  padding: 20px 0px;
+  border-bottom: 1px solid;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 3vw;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .content_bride {
+  padding: 20px 0px;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .content_bride .p1,
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .content_bride .p2 {
+  font-size: 1vw;
+  color: #666666;
+  opacity: 0;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .content_bride .month {
+  font-size: 1vw !important;
+  padding: 20px;
+  opacity: 0;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .btn_height {
+  width: 100%;
+  height: 60px;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .form-one .btn_height .btn_bride {
+  padding: 1vh 1vw;
+  display: none;
+  border: 1px solid grey;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .spananimate {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .text_im1 {
+  font-size: 15vw;
+  font-family: 'Brush Script MT', cursive;
+  color: white;
+  display: inline-block;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .fa-heart {
+  font-size: 15vw;
+  color: #ce2e49;
+  padding: 0px 30px;
+  display: inline-block;
+  margin-top: 88vh;
+}
+.type-2 .swiper-container .swiper-slide .slide_2 .text_im2 {
+  font-size: 15vw;
+  font-family: 'Brush Script MT', cursive;
+  color: white;
+  display: inline-block;
+}
+.type-2 .swiper-container .swiper-slide-active .text1.text1block {
+  display: inline-block;
+}
+.type-2 .swiper-container .swiper-slide-active .form-one.scale_form {
+  -webkit-animation: scalefrom 1s;
+  animation: scalefrom 1s !important;
+}
+.type-2 .swiper-container .swiper-slide-active .btn_bride.animate_btn {
+  display: inline-block !important;
+  animation-name: btnanimate;
+  animation-duration: 0.8s;
+}
+.type-2 .swiper-button-next,
+.type-2 .swiper-button-prev {
+  color: white;
+}
+.type-2 .active-next {
+  color: rgba(214,86,121,0.8);
+}
+.type-2 .swiper-button-next:after,
+.type-2 .swiper-button-prev:after {
+  color: none;
+  outline: none;
+}
+.type-2 .swiper-button-prev:hover:after,
+.type-2 .swiper-button-next:hover:after {
+  color: rgba(214,86,121,0.8);
+}
+.type-2 .swiper-button-prev:focus,
+.type-2 .swiper-button-next:focus {
+  outline: none;
+}
+@keyframes animate_form {
+  from {
+    transform: scale(4.0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scalefrom {
+  from {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+  to {
+    transform: scale(4.0);
+    opacity: 0;
+  }
+}
+@keyframes btnanimate {
+  from {
+    margin-top: 200px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+@keyframes animatedBackground {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1.01);
+  }
+  40% {
+    transform: scale(1.02);
+  }
+  60% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@media (min-width: 955px) {
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form {
+    display: block;
+    width: 40vw;
+    height: auto;
+    max-height: 70vh;
+    margin: 0 auto;
+    background: #fffefe;
+    -webkit-animation: animate_form 1s;
+    animation: animate_form 1s;
+  }
+  .type-2 .swiper-container .swiper-slide-active .form-one.scale_form {
+    -webkit-animation: scalefrom 1s;
+    animation: scalefrom 1s !important;
+  }
+  .type-2 .swiper-container .swiper-slide-active .btn_bride.animate_btn {
+    display: inline-block !important;
+    animation-name: btnanimate;
+    animation-duration: 0.8s;
+  }
+}
+@media (max-width: 955px) and (min-width: 500px) {
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form {
+    display: block;
+    width: 55vw;
+    height: auto;
+    margin: 0 auto;
+    background: #fffefe;
+    -webkit-animation: animate_form 1s;
+    animation: animate_form 1s;
+  }
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form .name_bride {
+    padding: 0px 40px;
+  }
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form .name_bride #text_animate {
+    display: none;
+  }
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form .name_bride .hname {
+    padding: 20px 0px;
+    border-bottom: 1px solid;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3.5vw;
+  }
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form .content_bride {
+    padding: 2vw 0px;
+  }
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form .content_bride .p1,
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form .content_bride .p2 {
+    font-size: 1.4vw;
+    color: #666666;
+    opacity: 0;
+  }
+  .type-2 .swiper-container .swiper-slide-active .form-one.animate_form .content_bride .month {
+    font-size: 2.1vw !important;
+    padding: 2.1vw;
+    opacity: 0;
+  }
+  .type-2 .swiper-container .swiper-slide-active .form-one.scale_form {
+    -webkit-animation: scalefrom 1s;
+    animation: scalefrom 1s !important;
+  }
+  .type-2 .swiper-container .swiper-slide-active .btn_bride {
+    padding: 1vh 1vw;
+    font-size: 2vw;
+  }
+  .type-2 .swiper-container .swiper-slide-active .btn_bride.animate_btn {
+    display: inline-block !important;
+    animation-name: btnanimate;
+    animation-duration: 0.8s;
+  }
+}

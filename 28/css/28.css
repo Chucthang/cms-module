@@ -1,0 +1,172 @@
+.pushmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.2s ease;
+}
+.pushmenu-push-toright {
+  left: 40%;
+}
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+.type-28 a {
+  text-decoration: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+.type-28 ul {
+  margin: 0;
+  padding: 0;
+}
+.type-28 ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.type-28 p {
+  color: #777777;
+  display: block;
+  font-family: 'Varela', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 12px 0;
+}
+.type-28 .tzdefault_title .container h1 {
+  color: #1f1f1f;
+  font-size: 17px;
+  line-height: 54.4px;
+  letter-spacing: 4px;
+  padding: 31px 0 34px 90px;
+  margin: 0;
+  text-transform: uppercase;
+  position: relative;
+}
+.type-28 .tzdefault_title .container h1:after {
+  width: 70px;
+  height: 2px;
+  background: #d65679;
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 59px;
+}
+.type-28 .tzdefault_title .container .about-page h3 {
+  color: #1f1f1f;
+  font-family: "Varela", sans-serif !important;
+  font-size: 25px !important;
+  font-weight: 400 !important;
+  line-height: 23px !important;
+}
+.type-28 .tzdefault_title .container .about-page #loginform .input {
+  width: 100% !important;
+}
+.type-28 .tzdefault_title .container .page-navigation {
+  width: 100%;
+  text-align: right;
+}
+.type-28 .tzdefault_title .container .page-navigation span {
+  display: inline-block;
+  font-family: "Varela", sans-serif;
+  font-size: 1em !important;
+  line-height: 4px !important;
+  padding: 10px 15px !important;
+  list-style: none !important;
+  color: #8a7e88 !important;
+  border: 1px solid #ebe9eb !important;
+  box-shadow: none !important;
+  background: #ebe9eb !important;
+  margin: 0 1.5px !important;
+}
+.type-28 .tzdefault_title .container .page-navigation a {
+  display: inline-block;
+  background: inherit !important;
+  font-family: "Varela", sans-serif;
+  font-size: 1em !important;
+  line-height: 4px !important;
+  padding: 10px 15px !important;
+  list-style: none !important;
+  color: #8a7e88 !important;
+  border: 1px solid #ebe9eb !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  margin: 0 1.5px !important;
+}
+.type-28 .tzdefault_title .container .box_comment {
+  position: relative;
+}
+.type-28 .tzdefault_title .container .box_comment .gb-entry {
+  margin: 0;
+  clear: left;
+  border-top: 1px solid #ebe9eb !important;
+  padding: 15px 0 !important;
+}
+.type-28 .tzdefault_title .container .box_comment .gb-entry .gb-author-info {
+  display: block;
+}
+.type-28 .tzdefault_title .container .box_comment .gb-entry .gb-author-info .gb-author-avatar {
+  margin: 0 0 8px 0;
+}
+.type-28 .tzdefault_title .container .box_comment .gb-entry .gb-author-info .gb-author-avatar img {
+  border-radius: 50%;
+  height: 80px;
+  position: relative;
+  top: 25px;
+  width: 80px;
+}
+.type-28 .tzdefault_title .container .box_comment .gb-entry .gb-author-info .gb-author-name {
+  font-family: "Varela", sans-serif !important;
+  font-size: 14px;
+  line-height: 23px;
+  font-style: normal !important;
+  text-transform: uppercase;
+  color: #8a7e88;
+  font-weight: 400 !important;
+  padding-left: 20px !important;
+}
+.type-28 .tzdefault_title .container .box_comment .gb-entry .gb-author-info .gb-datetime {
+  float: right !important;
+  padding: 25px 0 0 0;
+}
+.type-28 .tzdefault_title .container .box_comment .gb-entry .gb-entry-content {
+  padding-left: 100px !important;
+  position: relative;
+  top: -21px !important;
+  font-family: "Varela", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 23px !important;
+}
+@media (min-width: 320px) {
+  .type-28 .tzdefault_title .container .box_comment .gb-entry .gb-author-info {
+    display: block;
+    font-size: 13px;
+  }
+  .type-28 .tzdefault_title .container .box_comment .gb-entry .gb-author-info .gb-author-avatar img {
+    border-radius: 50%;
+    height: 80px;
+    position: relative;
+    top: 25px;
+    width: 80px;
+  }
+  .type-28 .tzdefault_title .container .box_comment .gb-entry .gb-author-info .gb-author-name {
+    font-family: "Varela", sans-serif !important;
+    font-size: 13px;
+    line-height: 23px;
+    font-style: normal !important;
+    text-transform: uppercase;
+    color: #8a7e88;
+    font-weight: 400 !important;
+    padding-left: 20px !important;
+  }
+  .type-28 .tzdefault_title .container .box_comment .gb-entry .gb-entry-content {
+    font-size: 13px !important;
+  }
+}
