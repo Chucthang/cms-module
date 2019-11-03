@@ -105,4 +105,73 @@ $url_path = str_replace('\\', '/', $url_path);
             </div>
         </div>
     </div>
+    <!-- content-page-3 -->
+    <div class="page-3">
+    <div class="column_container col-sm-12">
+        <div class="container">
+            <h3 class="team_title">OUR TEAM MEMBERS</h3>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-item">
+                        <div class="team-img ">
+                            <img src="./images/24.3.jpg" alt="">
+                            <div class="middle">
+                                <div class="icon-3"><i class="fa fa-link"></i></div>
+                            </div>
+                        </div>
+                        <div class="team-meta">
+                            <h4>Johnny Wickness</h4>
+                            <span>FOUNDER/ PROFESSOR</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-item">
+                        <div class="team-img ">
+                            <img src="./images/24.4.jpg" alt="">
+                            <div class="middle">
+                                <div class="icon-3"><i class="fa fa-link"></i></div>
+                            </div>
+                        </div>
+                        <div class="team-meta">
+                            <h4>Larry Beowuf</h4>
+                            <span>MAKE UP ARTIST</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-item">
+                        <div class="team-img ">
+                            <img src="./images/24.5.jpg" alt="">
+                            <div class="middle">
+                                <div class="icon-3"><i class="fa fa-link"></i></div>
+                            </div>
+                        </div>
+                        <div class="team-meta">
+                            <h4>Jeff Huntington</h4>
+                            <span>WEDDING DESIGNER</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="team-item">
+                        <div class="team-img ">
+                            <img src="./images/24.6.jpg" alt="">
+                            <div class="middle">
+                                <div class="icon-3"><i class="fa fa-link"></i></div>
+                            </div>
+                        </div>
+                        <div class="team-meta">
+                            <h4>Johnny Wickness</h4>
+                            <span>FOUNDER/ PROFESSOR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>v
+
 </div>

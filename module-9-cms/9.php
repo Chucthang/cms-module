@@ -12,7 +12,7 @@
         require_once($dir_block . '/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/23.less', 'css/23.css');
+    $less->compileFile('less/9.less', 'css/9.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="<?php echo $url_path ?>/css/bootstrap-v3.3.7.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/23.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/9.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/swiper.min.css">
         <link rel="stylesheet" type="text/css" href="css/styles-slider.css">
@@ -29,8 +29,6 @@
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <?php include '23-content.php'; ?>
-        <script type="text/javascript" src="<?php echo $url_path ?>/js/wowslider.js"></script>
-        <script type="text/javascript" src="<?php echo $url_path ?>/js/wowslider-engine.js"></script> 
+        <?php include '9-content.php'; ?>
     </body>
 </html>
