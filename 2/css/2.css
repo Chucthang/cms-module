@@ -1,13 +1,7 @@
 body,
 html {
-  height: 100%;
   padding: 0;
   margin: 0;
-}
-.setPosition {
-  left: 50%;
-  position: absolute;
-  transform: translateX(-50%);
 }
 .type-2 .slide-button:hover {
   text-decoration: none;
@@ -185,12 +179,21 @@ html {
   animation-name: btnanimate;
   animation-duration: 0.8s;
 }
-.type-2 .swiper-button-prev:after {
+.type-2 .swiper-button-next,
+.type-2 .swiper-button-prev {
   color: white;
+}
+.type-2 .active-next {
+  color: rgba(214,86,121,0.8);
+}
+.type-2 .swiper-button-next:after,
+.type-2 .swiper-button-prev:after {
+  color: none;
   outline: none;
 }
-.type-2 .swiper-button-next:after {
-  color: white;
+.type-2 .swiper-button-prev:hover:after,
+.type-2 .swiper-button-next:hover:after {
+  color: rgba(214,86,121,0.8);
 }
 .type-2 .swiper-button-prev:focus,
 .type-2 .swiper-button-next:focus {

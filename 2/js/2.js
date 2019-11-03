@@ -68,10 +68,10 @@ $(document).ready(function() {
     $(".text1").addClass("text1block");
     fadein();
 
-    swiper.on('slideChangeTransitionStart', function() {
+    swiper.on('slideChangeTransitionStart', function(e) {
         // swiper.slideNext(0, 6000, false);   
         var testactive = swiper.realIndex;
-
+        // if (jQuery(event.target)) {
         if (testactive == 0) {
             $(".text1").addClass("text1block");
             fadein();
@@ -91,8 +91,33 @@ $(document).ready(function() {
             reset_form();
         }
 
+        // }
+    });
+    /*----------------------------------------------- CLICK ACTIVE NEXT - PREV ------------------------------------*/
+
+    $(document).on('click', ".swiper-button-prev", function() {
+
+        // if (!jQuery(event.target).closest('.slideDetaill').length) {
+        //     alert("prev");
+        // }
+        $(".swiper-button-prev").toggleClass("active-nextprev");
+        if ($(".swiper-button-next").hasClass("active-nextprev")) {
+            $(".swiper-button-next").toggleClass("active-nextprev");
+        }
+
     });
 
+    $(document).on('click', ".swiper-button-next", function() {
+
+        // if (!jQuery(event.target).closest('.slideDetaill').length) {
+        //     alert("next");
+        // }
+        $(".swiper-button-next").toggleClass("active-nextprev");
+        if ($(".swiper-button-prev").hasClass("active-nextprev")) {
+            $(".swiper-button-prev").toggleClass("active-nextprev");
+        }
+
+    });
 
 
     /*----------------------------------------------FUNCTION FADE IN , FADE OUT -------------------------------------*/

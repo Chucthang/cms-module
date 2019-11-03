@@ -13,6 +13,7 @@ if (!class_exists('lessc')) {
 }
 $less = new lessc;
 $less->compileFile('less/1.less', 'css/1.css');
+
 ?>
 
 
@@ -26,10 +27,15 @@ $less->compileFile('less/1.less', 'css/1.css');
 
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/css/1.css" rel="stylesheet" type="text/css" />
+
     <link href="<?php echo $url_path ?>/css/21.css" rel="stylesheet" type="text/css" />
-    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-    <script src="<?php echo $url_path ?>/js/1.js"></script>
     <link href="<?php echo $url_path ?>/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $url_path ?>/swiper-5.0.2/package/css/swiper.min.css">
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+
+    <script src="<?php echo $url_path ?>/js/1.js"></script>
+
+
 
 
     <?php
@@ -45,6 +51,7 @@ $less->compileFile('less/1.less', 'css/1.css');
 <body class="pushmenu-push ">
     <?php include './1-content.php' ?>
     <?php include './21-content.php' ?>
+
 </body>
 
 </html>

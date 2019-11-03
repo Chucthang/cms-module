@@ -29,15 +29,17 @@ $less->compileFile('less/2.less', 'css/2.css');
     <link href="<?php echo $url_path ?>/css/fontawesome.min.css" rel="stylesheet" type="text/css" />
     <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
     <link href="<?php echo $url_path ?>/css/2.css" rel="stylesheet" type="text/css" />
-
     <link rel="stylesheet" href="<?php echo $url_path ?>/swiper-5.0.2/package/css/swiper.min.css">
     <script src="<?php echo $url_path ?>/swiper-5.0.2/package/js/swiper.min.js"></script>
 
 </head>
 
 <body>
+
     <?php include './2-content.php'; ?>
+
     <script src="js/2.js"></script>
+
 
 </body>
 
