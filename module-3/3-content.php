@@ -19,25 +19,25 @@
                 <div class="col-md-8">
                     <div class="right">
                         <div class="row">
-                            <div class="col-md-4 ex">
+                            <div class="col-md-3 ex">
                                 <div class="a">
                                     <span>00</span>
                                     <p>DAYS</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 ex">
+                            <div class="col-md-3 ex">
                                 <div class="a">
                                     <span>00</span>
                                     <p>HOURS</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 ex">
+                            <div class="col-md-3 ex">
                                 <div class="a">
                                     <span>00</span>
                                     <p>MINUTES</p>
                                 </div>
                             </div>
-                            <div class="col-md-4 ex">
+                            <div class="col-md-3 ex">
                                 <div class="a">
                                     <span>00</span>
                                     <p>SECONDS</p>
