@@ -1,0 +1,312 @@
+.type-13 {
+  margin-bottom: 250px;
+}
+.type-13 .timeplate {
+  background: #f6f6f6;
+  padding: 20px;
+}
+.type-13 .timeplate .title_ourstory {
+  font-size: 17px;
+  line-height: 54.4px;
+  color: #212121;
+  position: relative;
+  margin-left: 85px;
+}
+.type-13 .timeplate .title-13::before {
+  width: 70px;
+  height: 3px;
+  background: #d65679;
+  position: absolute;
+  content: '';
+  margin-top: 45px;
+}
+.type-13 .bk {
+  margin-top: 50px;
+}
+.type-13 .bk .boder-right {
+  padding-bottom: 255px;
+  border-right: 1px solid #eeeeee;
+  z-index: 1;
+}
+.type-13 .bk .boder-right .timeline {
+  background: #fff;
+  text-align: center;
+  margin-top: -72px;
+  color: #999999;
+  position: absolute;
+  margin-left: 84%;
+  height: 25px;
+  width: 120px;
+  border: 1px solid #eeeeee;
+  z-index: 2;
+}
+.type-13 .bk .boder-right .timelinee {
+  background: #fff;
+  text-align: center;
+  margin-top: -180px;
+  color: #999999;
+  position: absolute;
+  margin-left: 84%;
+  height: 25px;
+  width: 120px;
+  border: 1px solid #eeeeee;
+  z-index: 2;
+}
+.type-13 .bk .boder-right .bkimg1 {
+  margin-top: 250px;
+}
+.type-13 .bk .boder-right a {
+  text-decoration: none;
+}
+.type-13 .bk .boder-right .tit {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.type-13 .bk .boder-right .tz-title {
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
+.type-13 .bk .boder-right .tz-title a {
+  color: #000;
+}
+.type-13 .bk .boder-right .tz_meta {
+  text-align: center;
+  font-size: 12px;
+  color: red;
+}
+.type-13 .bk .boder-right .tz_meta a {
+  color: red;
+}
+.type-13 .bk .timeline1 {
+  background: #fff;
+  position: absolute;
+  margin-left: -15%;
+  height: 25px;
+  width: 120px;
+  text-align: center;
+  border: 1px solid #eeeeee;
+  z-index: 2;
+}
+.type-13 .bk .boder-left {
+  margin-left: 30px;
+  margin-top: 90px;
+}
+.type-13 .bk .boder-left .timeline2 {
+  padding: 0 20px 20px 20px;
+  color: #999999;
+  background: #fff;
+  margin-top: -90px;
+  position: absolute;
+  margin-left: -20%;
+  height: 25px;
+  border: 1px solid #eeeeee;
+  z-index: 2;
+}
+.type-13 .bk .boder-left .timeline1 {
+  color: #999999;
+  background: #fff;
+  margin-top: -90px;
+  position: absolute;
+  margin-left: -20%;
+  height: 25px;
+  border: 1px solid #eeeeee;
+  z-index: 2;
+}
+.type-13 .bk .boder-left .timeline {
+  background: #fff;
+  color: #999999;
+  position: absolute;
+  margin-left: -20%;
+  height: 25px;
+  border: 1px solid #eeeeee;
+  z-index: 2;
+}
+.type-13 .bk .boder-left a {
+  text-decoration: none;
+}
+.type-13 .bk .boder-left .tit {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+.type-13 .bk .boder-left .tz-title {
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  font-size: 16px;
+}
+.type-13 .bk .boder-left .tz-title a {
+  color: #000;
+}
+.type-13 .bk .boder-left .tz_meta {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 250px;
+  color: red;
+}
+.type-13 .bk .boder-left .tz_meta a {
+  color: red;
+}
+@media (max-width: 991px) {
+  img {
+    width: 100%;
+  }
+  .type-13 .bk .boder-right {
+    padding-bottom: 255px;
+    border-right: none;
+    z-index: 1;
+  }
+  .type-13 .bk .boder-right .timeline {
+    background: #fff;
+    text-align: center;
+    margin-top: -285px;
+    color: #999999;
+    position: absolute;
+    margin-left: 0;
+    height: 30px;
+    width: 96%;
+    border: 1px solid #eeeeee;
+    z-index: 2;
+  }
+  .type-13 .bk .boder-right .bkimg1 {
+    margin-top: 100px;
+  }
+  .type-13 .bk .boder-right .timelinee {
+    background: #fff;
+    text-align: center;
+    margin-top: -570px;
+    color: #999999;
+    position: absolute;
+    margin-left: 0;
+    height: 30px;
+    width: 96%;
+    border: 1px solid #eeeeee;
+    z-index: 2;
+  }
+  .type-13 .bk .boder-left {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .type-13 .bk .boder-right #time {
+    background: #fff;
+    text-align: center;
+    margin-top: -450px;
+    color: #999999;
+    position: absolute;
+    margin-left: 0;
+    height: 30px;
+    width: 96%;
+    border: 1px solid #eeeeee;
+    z-index: 2;
+  }
+  .type-13 .bk .boder-left .timeline1 {
+    width: 100%;
+    color: #999999;
+    background: #fff;
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 0;
+    height: 30px;
+    border: 1px solid #eeeeee;
+    z-index: 2;
+  }
+  .type-13 .bk .boder-left .tz_meta {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 100px;
+    color: red;
+  }
+  .type-13 .bk .boder-left .timeline2 {
+    margin-left: 40%;
+    margin-top: 0;
+  }
+}
+@media (max-width: 660px) {
+  .type-13 .bk .boder-right .tz_meta {
+    text-align: center;
+    font-size: 12px;
+    color: red;
+    margin-top: 100px;
+  }
+  .type-13 .bk .boder-right .tz_meta {
+    margin-bottom: -135px;
+    text-align: center;
+    font-size: 12px;
+    color: red;
+  }
+  img {
+    width: 100%;
+  }
+  .type-13 .bk .boder-right {
+    padding-bottom: 255px;
+    border-right: none;
+    z-index: 1;
+  }
+  .type-13 .bk .boder-right .timeline {
+    background: #fff;
+    text-align: center;
+    margin-top: -185px;
+    color: #999999;
+    position: absolute;
+    margin-left: 0;
+    height: 30px;
+    width: 96%;
+    border: 1px solid #eeeeee;
+    z-index: 2;
+  }
+  .type-13 .bk .boder-right .bkimg1 {
+    margin-top: 100px;
+  }
+  .type-13 .bk .boder-right .timelinee {
+    background: #fff;
+    text-align: center;
+    margin-top: -370px;
+    color: #999999;
+    position: absolute;
+    margin-left: 0;
+    height: 30px;
+    width: 96%;
+    border: 1px solid #eeeeee;
+    z-index: 2;
+  }
+  .type-13 .bk .boder-left {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .type-13 .bk .boder-right #time {
+    background: #fff;
+    text-align: center;
+    margin-top: -300px;
+    color: #999999;
+    position: absolute;
+    margin-left: 0;
+    height: 30px;
+    width: 96%;
+    border: 1px solid #eeeeee;
+    z-index: 2;
+  }
+  .type-13 .bk .boder-left .timeline1 {
+    width: 96%;
+    color: #999999;
+    background: #fff;
+    margin-top: -50px;
+    position: absolute;
+    margin-left: 0;
+    height: 30px;
+    border: 1px solid #eeeeee;
+    z-index: 2;
+  }
+  .type-13 .bk .boder-left .tz_meta {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 100px;
+    color: red;
+  }
+  .type-13 .bk .boder-left .timeline2 {
+    margin-left: 40%;
+    margin-top: 0;
+  }
+}

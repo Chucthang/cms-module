@@ -1,0 +1,52 @@
+.type-27 .hh {
+  margin-bottom: 20px;
+}
+.type-27 .timeplate {
+  background: #f6f6f6;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.type-27 .timeplate .title_ourstory {
+  line-height: 54.4px;
+  letter-spacing: 4px;
+  font-size: 17px;
+  color: #212121;
+  position: relative;
+  margin-left: 85px;
+}
+.type-27 .timeplate .title-27::before {
+  width: 70px;
+  height: 2px;
+  background: #d65679;
+  position: absolute;
+  content: '';
+  margin-top: 45px;
+}
+.type-27 .single-content {
+  color: #777777;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 11px 0;
+  letter-spacing: 0.4px;
+}
+.type-27 .single-content h1,
+.type-27 .single-content h2,
+.type-27 .single-content h3,
+.type-27 .single-content h4,
+.type-27 .single-content h5 {
+  font-weight: 400;
+  color: #444;
+  padding: 10px 0;
+  margin: 0;
+}
+.type-27 .single-content p {
+  color: #777777;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 12px 0;
+  letter-spacing: 0.4px;
+}
