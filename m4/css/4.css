@@ -1,0 +1,27 @@
+.type-4 .title_ourstory {
+  font-size: 17px;
+  line-height: 54.4px;
+  color: #212121;
+  position: relative;
+  padding: 8px 0;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.type-4 .title_ourstory:after {
+  width: 70px;
+  height: 2px;
+  background: #d65679;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -35px;
+  content: '';
+}
+.type-4 .ourstory_content {
+  font-size: 12px;
+  line-height: 24px;
+  color: #666666;
+  text-align: center;
+  padding: 12px 0;
+}
