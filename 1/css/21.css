@@ -1,0 +1,110 @@
+.zoomic {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    display: none;
+}
+
+.type-21 a {
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.type-21 img {
+    width: 100%;
+    height: auto;
+}
+
+.type-21 ul li {
+    list-style: none;
+}
+
+.type-21 .setcontainer {
+    width: 1000px !important;
+}
+
+.type-21 .setcontainer .wrap-portfolio {
+    padding-top: 30px;
+}
+
+.type-21 .setcontainer .wrap-portfolio .wrap_br_title .breadcum .icon-home {
+    color: #999;
+}
+
+.type-21 .setcontainer .wrap-portfolio .wrap_br_title .breadcum .txt-home {
+    color: #999;
+}
+
+.type-21 .setcontainer .wrap-portfolio .wrap_br_title .head-title-21 {
+    color: #3d3d3d;
+    font-size: 28px;
+    padding: 15px 0px;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 {
+    max-width: 475px;
+    margin: 0 auto;
+    padding: 0px 0px 40px 0px !important;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 .col-module-21 .box-module-21 {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 .col-module-21 .box-module-21 .zoom-icon {
+    position: absolute;
+    display: flex;
+    bottom: 5%;
+    right: 0;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 .col-module-21 .box-module-21 .zoom-icon .zoom-block {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    display: none;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 .col-module-21 .box-module-21 .zoom-icon .zoom-eye {
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+    display: none;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 .col-module-21 .box-module-21:hover .zoom-icon .zoom-block {
+    display: block;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 .col-module-21 .box-module-21:hover .zoom-icon .zoom-eye {
+    display: block;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 .col-module-21 .title-21 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0px;
+    color: #3d3d3d;
+    margin-bottom: 0px !important;
+}
+
+.type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 .col-module-21 .content-21 {
+    font-size: 13px;
+    color: #ACACAC;
+}
+
+@media (max-width: 841px) {
+    .type-21 .setcontainer {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 761px) {
+    .type-21 .setcontainer .wrap-portfolio .row .col-md-6-21 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
