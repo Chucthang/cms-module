@@ -1,0 +1,93 @@
+<?php
+
+$url_host = 'http://'.$_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+
+if (!class_exists('lessc')) {
+    $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+    require_once($dir_block.'/libs/lessc.inc.php');
+}
+
+$less = new lessc;
+$less->compileFile('less/8.less', 'css/8.css');
+
+?>
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>8-cms</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="<?php echo $url_path ?>/css/bootstrap-3.3.7.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?php echo $url_path ?>/css/8.css" rel="stylesheet" type="text/css" />
+
+    <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap-3.3.7.min.js"></script>
+
+<body>
+<script src="<?php echo $url_path ?>/js/8.js"></script>
+<?php include '8-content.php'; ?>
+<script >
+    $(function() {
+
+var media = $('video').not("[autoplay='autoplay']"),
+interface = $('button'),
+tolerance = 200;
+
+function checkMedia() {
+
+  var current = $(window).scrollTop(),
+  scrollTop = current + tolerance,
+  scrollBottom = current + $(window).height() - tolerance;
+
+  media.each(function(index, el) {
+
+    var yTopMedia = $(this).offset().top,
+    yBottomMedia = $(this).height() + yTopMedia;
+
+    if (scrollTop < yBottomMedia && scrollBottom > yTopMedia) {
+      $(this).get(0).play();
+      interface.text('PAUSE');
+    }
+    else {
+      $(this).get(0).pause();
+      interface.text('PLAY');
+    }
+  }).on('ended', function() {
+    interface.text('PLAY');
+  });
+}
+
+interface.click(function() {
+
+  $(this).text(function(i, v) {
+    return v === 'PLAY' ? 'PAUSE' : 'PLAY';
+  });
+
+  if (media[0].playing) media.get(0).pause();
+  else media.get(0).play();
+});
+
+$(window).scroll(checkMedia);
+
+Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+  get: function() {
+    return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+  }
+});
+});
+</script>
+</body>
+</html>
+
+

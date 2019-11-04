@@ -1,0 +1,73 @@
+.type-27a {
+  background-image: url(../images/background.jpg);
+  background-size: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: repeat-y;
+}
+.type-27a .coming {
+  top: 100%;
+  color: #ffffff;
+  font-size: 35px;
+  line-height: 42px;
+  margin: 0;
+  padding: 0 0 45px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.type-27a .tron {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 40px 0 0 0;
+  transition: all 0.3s linear 0s;
+  border: 1px solid #a1a0a1;
+}
+.type-27a .tron:hover {
+  background: rgba(255,255,255,0.5);
+  cursor: pointer;
+  border-color: transparent;
+}
+.type-27a .tron span {
+  font-size: 25px;
+  line-height: 33px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.type-27a .tron p {
+  font-size: 11px;
+  line-height: 24px;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+.type-27a .top {
+  margin-top: 200px;
+}
+@media only screen and (max-width: 991px) {
+  .type-27a .tron {
+    margin: 30px auto 0;
+  }
+  .type-27a .type-27a {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+  }
+}
+.type-27a .comingsoo_ds {
+  text-align: center;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 35px;
+  margin: 0;
+  padding: 40px 0 0 0;
+}
+.type-27a .comingsoo_ds a {
+  color: #d65679;
+  text-decoration: none;
+}

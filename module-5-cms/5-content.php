@@ -11,7 +11,7 @@
 <div class="type-5-cms">
    <div class="container">
         <div class="row">
-            <div class="col-md-4 ">
+            <div class="col-md-4 content">
                 <div class="name-img">
                         <h3>WEDDING DECOR</h3>
                     </div>
@@ -27,7 +27,7 @@
                 <p>Thank you for choosing Cosmo Theme and purchasing one of our Premium WordPress Themes. Your choice is highly appreciated!</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 content">
                 <div class="name-img">
                         <h3>BRIDE & GROOM</h3>
                 </div>
@@ -42,7 +42,7 @@
                 <p>Thank you for choosing Cosmo Theme and purchasing one of our Premium WordPress Themes. Your choice is highly appreciated!</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 content">
                 <div class="name-img">
                         <h3>THE PROPOSE</h3>
                 </div>
