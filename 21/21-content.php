@@ -58,10 +58,10 @@
                                 Nam sagittis ut mi id hendrerit.</p>
                             <div class="icon">
                                 <span>SHARE THIS:</span>
-                                <a href="#" onclick="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" onclick="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#" onclick="#"><i class="fab fa-google"></i></a>
-                                <a href="#" onclick="#"><i class="fab fa-pinterest"></i></a>
+                                <a href="#" onclick="#"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#" onclick="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#" onclick="#"><i class="fa fa-google"></i></a>
+                                <a href="#" onclick="#"><i class="fa fa-pinterest"></i></a>
                             </div>
                         </div>
 

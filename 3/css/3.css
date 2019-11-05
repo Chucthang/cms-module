@@ -31,6 +31,9 @@
   -moz-transition: all 0.3s linear 0s;
   -webkit-transition: all 0.3s linear 0s;
 }
+.type-3 .left {
+  display: table;
+}
 .type-3 .tong .right .a:hover {
   background: #e289a1;
   border-color: #e289a1;
@@ -52,27 +55,33 @@
   margin: 0;
   text-transform: uppercase;
 }
-.type-3 .tong .left .heart .icon {
+.type-3 .heart {
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 40px;
   color: #fff;
-  font-size: 42px !important;
-  line-height: 50.4px;
-  padding: 25px 0 0;
-  margin: 0;
+}
+.type-3 .icon {
   display: block;
-  float: left;
 }
 @media only screen and (max-width: 991px) {
-  .type-3 .tong .left .text {
+  .type-3 .tong .left {
     text-align: center;
     padding: 0;
   }
-  .type-3 .icon {
-    float: none !important;
-    text-align: center;
-    padding: 0;
+  .type-3 .text {
+    padding-left: unset !important;
   }
   .type-3 .tong .right .ex {
     width: 100% !important;
     margin: 30px 0px 30px 0px;
+  }
+  .type-3 .left {
+    display: block;
+  }
+  .type-3 .heart {
+    font-size: 40px;
+    color: #fff;
+    display: unset;
   }
 }
