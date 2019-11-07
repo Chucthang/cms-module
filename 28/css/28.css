@@ -1,7 +1,7 @@
-.type-20 .events {
+.type-28 .events {
   background-color: #f6f6f6;
 }
-.type-20 .events .gach {
+.type-28 .events .gach {
   margin-top: 57px;
   height: 2px;
   display: flex;
@@ -9,7 +9,7 @@
   width: 6.5%;
   float: left;
 }
-.type-20 .events .text {
+.type-28 .events .text {
   color: #1f1f1f;
   font-size: 17px;
   line-height: 54.4px;
@@ -20,21 +20,21 @@
   position: relative;
 }
 @media only screen and (max-width: 991px) {
-  .type-20 .events .gach {
+  .type-28 .events .gach {
     margin-top: 31px;
     height: 2px;
     width: 9%;
     margin-left: 13px;
   }
-  .type-20 .events .text {
+  .type-28 .events .text {
     padding: 5px 0 5px 90px;
   }
 }
-.type-20 h1 {
+.type-28 h1 {
   font-size: 30px;
   line-height: 60px;
 }
-.type-20 .grid p {
+.type-28 .grid p {
   color: #777777;
   font-size: 12px;
   font-weight: 400;
