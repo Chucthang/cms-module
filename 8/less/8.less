@@ -41,15 +41,18 @@
 	    -ms-border-radius: 50%;
 	    -o-border-radius: 50%;
 	    text-align: center;
-	    display: inline-block;
-	}
-	.autoplay i {
-	    font-size: 25px;
-	    line-height: 85px;
-	    color: #fff;
-	    text-align: center;
+		display: inline-block;
+		outline: none;
+
+		i {
+			font-size: 25px;
+			line-height: 85px;
+			color: #fff;
+			text-align: center;
+		}
 	}
 	.pause {
+		position: absolute;
 	    background: #d65679;
 	    height: 85px;
 	    width: 85px;
@@ -60,12 +63,15 @@
 	    -ms-border-radius: 50%;
 	    -o-border-radius: 50%;
 	    text-align: center;
-	    display: none;
-	}
-	.pause i {
-	    font-size: 25px;
-	    line-height: 85px;
-	    color: #fff;
+	    margin-left:-85px;
+	    outline: none;
+		visibility: hidden;
+		
+		i {
+			font-size: 25px;
+			line-height: 85px;
+			color: #fff;
+		}
 	}
 	.tz-video-content h3 {
 	    font-family: 'Rouge Script', cursive;
@@ -90,9 +96,10 @@
 	    letter-spacing: 3px;
 	}
 	.bg-video{
-    	//background: url(http://wordpress.templaza.net/everline/wp-content/uploads/2015/01/backgroundvideo.jpg) no-repeat  center //center / cover  transparent !important;
-    	//display: block;
+    	background: url(../images/8.1.jpg) no-repeat  center center / cover  transparent !important;
+    	display: block;
 	}
+	.none-bg{display: none;}
 	.bg-video {
 	    position: absolute;
 	    top: 0;

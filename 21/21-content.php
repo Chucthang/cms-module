@@ -1,4 +1,13 @@
-<div class="type-20">
+<?php
+    $url_host = 'http://' . $_SERVER['HTTP_HOST'];
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+
+    preg_match_all($pattern_uri, __DIR__, $matches);
+    $url_path = $url_host . $matches[1][0];
+    $url_path = str_replace('\\', '/', $url_path);
+?>
+<div class="type-21">
     <div class="container">
         <div class="test">
             <div class="events">
@@ -58,10 +67,10 @@
                                 Nam sagittis ut mi id hendrerit.</p>
                             <div class="icon">
                                 <span>SHARE THIS:</span>
-                                <a href="#" onclick="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" onclick="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#" onclick="#"><i class="fab fa-google"></i></a>
-                                <a href="#" onclick="#"><i class="fab fa-pinterest"></i></a>
+                                <a href="#" onclick="#"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#" onclick="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#" onclick="#"><i class="fa fa-google"></i></a>
+                                <a href="#" onclick="#"><i class="fa fa-pinterest"></i></a>
                             </div>
                         </div>
 

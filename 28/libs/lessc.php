@@ -1,5 +1,5 @@
 <?php
-
+namespace App\lib;
 /**
  * lessphp v0.4.0
  * http://leafo.net/lessphp

@@ -28,10 +28,14 @@
         -o-border-radius: 50%;
         text-align: center;
         margin: auto;
-        padding: 40px 0 0 0;
+        padding: 35px 0 0 0;
         transition: all 0.3s linear 0s;
         -moz-transition: all 0.3s linear 0s;
         -webkit-transition: all 0.3s linear 0s;
+    }
+
+    .left {
+        display: table;
     }
 
     .tong .right .a:hover {
@@ -59,31 +63,40 @@
         text-transform: uppercase;
     }
 
-    .tong .left .heart .icon {
+    .heart {
+        vertical-align: middle;
+        display: table-cell;
+        font-size: 40px;
         color: #fff;
-        font-size: 42px !important;
-        line-height: 50.4px;
-        padding: 25px 0 0;
-        margin: 0;
-        display: block;
-        float: left;
     }
 
+    .icon {
+        display: block;
+    }
+
+
     @media only screen and (max-width: 991px) {
-        .tong .left .text {
+        .tong .left {
             text-align: center;
             padding: 0;
         }
-
-        .icon {
-            float: none!important;
-            text-align: center;
-            padding: 0;
-        }
-
+    .text{
+        padding-left: unset !important;
+    }
         .tong .right .ex {
             width: 100% !important;
             margin: 30px 0px 30px 0px;
         }
+
+        .left {
+            display: block;
+        }
+
+        .heart {
+            font-size: 40px;
+            color: #fff;
+            display: unset;
+        }
       }
 }
+
